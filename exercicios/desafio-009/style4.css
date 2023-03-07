@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= DM + Serif+Display:ital@1 & display=swap');
+*{
+    text-align: justify;
+}
+body{
+    background-color: rgba(17, 17, 232, 0.722);
+}
+main{
+    background-color: whitesmoke;
+    width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
