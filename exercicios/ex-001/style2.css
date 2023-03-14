@@ -1,22 +1,64 @@
 @charset "UTF-8";
 
-
 *{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 body{
-    background-image: linear-gradient(30deg, #FDC04B, #F58718, #F17918, #ED691F, #EB4F26);
+    background-color: #f17a18ad;
+}
+
+header{
+    width: auto;
+    height: 150px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #F58718, #F17918, #ED691F, #EB4F26);
+}
+header > h1{
+    color:#FDC04B;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+nav{
+    background-color: #EB4F26;
+}
+nav > a{
+    color: #FDC04B;
+}
+nav > p{
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0%;
+    padding: 10px 10px 5px 10px;
 }
 
 main{
-    width: 600px;
+    max-width: 900px;
+    min-width: 320px;
     background-color: rgb(240, 228, 204);
     padding: 10px;
     margin: auto;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 3px 3px 15px black;
     border-radius: 10px;
+}
+main > aside{
+    background-color: #ff6a0076;
+    list-style-position: inside;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+aside > p{
+    padding: 10px;
+    background-color: #EB4F26;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 10px -10px;
 }
 
 h1{
@@ -24,36 +66,47 @@ h1{
     font-size: 40px;
     color: rgba(255, 149, 0, 0.741);
     text-shadow: 1px 1px 4px rgba(255, 166, 0, 0.745);
-    text-decoration: underline;   
+    text-decoration: underline;
+    margin: auto;
+    padding: 10px;
 }
 
 h2{
    color: #ED691F;
-   text-shadow: 1px 1px 3px rgba(186, 126, 16, 0.535); 
+   text-shadow: 0px 0px 1px black;
+   margin: auto;
+   background-image: linear-gradient(to right, #f870008d, transparent);
+   padding: 5px 5px 5px 0px;
 }
 
 h3{
-    color: #F58718;
-    text-shadow: 1px 1px 3px #b76819a9
+    color: #ff6a00;
+    text-shadow: 0px 0px 0.8px black;
+    margin: auto;
+    padding: 5px 5px 5px 0px;
+    background-image: linear-gradient(to right, #f8aa00b9, transparent);
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #FDC04B;
     font-weight: bold;
 }
 a:hover{
     text-decoration: underline;
 }
 a:visited{
-    color: #EB4F26;
+    color: #1100ff;
 }
 a:active{
-    color: #FDC04B;
+    color: #ffa600;
 }
 
 p{
     text-indent: 20px;
+    line-height: 23px;
+    margin: auto;
+    padding: 5px 5px 5px 0px;
  }
 
  div > p{
@@ -68,4 +121,5 @@ div{
     width: 100px;
     border: 1px solid darkred;
     text-align: center;
+    margin-bottom: 10px;
 }

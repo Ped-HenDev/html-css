@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principios de HTML5 e CSS3</title>
+    <title>Meus estudos</title>
     <link rel="shortcut icon" href="../ex-001/imagems/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-    <main>
-        <hr>
+    <header>
         <h1>Olá, mundo!</h1>
-        <address><p style="text-align: right;">Autor: Pedro Henrique Silva Gomes <br>Data: 27/01/2023 as 11:00</p></address>
-        <hr>
-        <p style="font-size: 15px;">Todos os topicos que está escrito nesse arquivo eu aprendi no <a href="https://www.cursoemvideo.com/" target="_blank" rel="external" rel="nofollow">Curso em video</a></p>
+    </header>
+    <nav>
+        <p style="font-size: 15px;">Todos os topicos que está escrito nesse arquivo eu aprendi no <a id="nav" href="https://www.cursoemvideo.com/" target="_blank" rel="external" rel="nofollow">Curso em video</a></p>
+    </nav>
+    <main>
         <p><address style="font-size: 18px;"><strong>Esse "site"/arquivo tem como sua principal função, guardar informações das materiass que estou aprendendo no curso de HTML5 e CSS3 no site do Curso em video.Ele sera separado em topicos e cada topico representa assuntos novos que aprendi ou que estou apredendo durante o decorrer do curso.Então vamos começar</strong></address></p>
         <hr>
         
@@ -31,17 +32,17 @@
         <h2>Significado dos elementos do código</h2>
         <p>Logo abaixo de DOCTYPE HTML, esse "html lang="en" voce troca por "pt-br", com isso o codigo ira entender que isso é em portugues do Brasil. <br>Esse UTF-8 tem a função de diferenciar o portugues de outras linguas, ja que as outras linguas não apresentam acentos. <br>Meta name="viewport" é para indicar que o seu codigo na hora que for rodado, ira pegar 100% da tela. <br>O Title será o nome do seu site. <br> O restante do codigo explicando de forma resumida, é como se fosse um corpo com cabeça= head e corpo= body e é nesse body que voce irá iniciar seus primeiros codigos.</p>
         
-        <p>Como o "!", os codigos que irei mostrar agora são alguns conjuntos de letras que tem bastante importância, alguns exemplos são: <h3>-h1 (ele é seu cabeçalho que nesse arquivo representa o "Olá mundo!") <br>-hr (é a linha que se pode veista separando cada paragrafo)falando em paragrafo. <br>-p(seu paragrafo, tudo que for escrito em seu site estará aqui dentro). <br>-br(ele dá quebras entre um paragrafo e outro).</h3></p>
+        <p>Como o "!", os codigos que irei mostrar agora são alguns conjuntos de letras que tem bastante importância, alguns exemplos são: <br><strong>-h1</strong> (ele é seu cabeçalho que nesse arquivo representa o "Olá mundo!") <br><strong>-hr</strong> (é a linha que se pode veista separando cada paragrafo)falando em paragrafo. <br><strong>-p</strong>(seu paragrafo, tudo que for escrito em seu site estará aqui dentro). <br><strong>-br</strong>(ele dá quebras entre um paragrafo e outro).</p>
         
         <p><h2>Emojis e simbolos</h2>Nas suas frases voce pode colocar simbolos ou emojis: <br>Tanto simbolos quanto emojis tem listas para aprender e saber quais usar mas darei alguns exemplos e como acha-los.Voce faz simbolos usando o "&"(o E comercial) com o nome do simbolos. <h3>-&Delta; <br>-&uArr;<br>-&downarrow;<br>-&cent;</h3>Ja os emojis é simples, voce irá entrar no <a href="https://emojipedia.org/" target="_blank" rel="external" rel="nofollow">emojipedia</a> caçar o emoji que deseja usar, rolar ate o final e achar o codigo do emoji e fazer o seguinte codigo &#x(numero do codigo do emoji).</p>
         
-        <p>
-        <h2>Imagens</h2>Agora na parte de como colocar imagens no seu site vc deve fazer um breve passo a passo <h3>-Procurar imagens ou criar suas proprias imagens (ao procurar cuidado com direitos autorais, filtre bem a imagem no opção de "ferramentas")<br>-Edite ela usando o GIMP <br>-Exporte sua imagem para o arquivo do seu site <br>-Posicione suas imagem aonde desejar no codigo (tanto no head qunado no body) <br>-Dê ctrl+space na parte de "src"(src é a procura da sua imagem aonde ela estiver salva) <br>-Na area de alt coloque algo alternativo para caso sua imagem der erro e você saber (alt é uma alternativa de imagem) </h3></p>
+        <h2>Imagens</h2>
+        <p>Agora na parte de como colocar imagens no seu site vc deve fazer um breve passo a passo <strong><br>-Procurar imagens ou criar suas proprias imagens (ao procurar cuidado com direitos autorais, filtre bem a imagem no opção de "ferramentas")<br>-Edite ela usando o GIMP <br>-Exporte sua imagem para o arquivo do seu site <br>-Posicione suas imagem aonde desejar no codigo (tanto no head qunado no body) <br>-Dê ctrl+space na parte de "src"(src é a procura da sua imagem aonde ela estiver salva) <br>-Na area de alt coloque algo alternativo para caso sua imagem der erro e você saber (alt é uma alternativa de imagem)</strong> </p>
         <img src="../ex-001/imagems/html5-editada.webp" alt="html5 imagem alternativa">
         <img src="../ex-001/imagems/css-editada.webp" alt="css3 imagem alternativa">
         
         <p><h2>Icones</h2>
-        Agora como colocar icones na aba do seu site.Você pode contruir, criar ou até mesmo pegar um icone (mas presumo que queira criar ou contruir o seu do zero), você pode fazer isso usando alguns sites como <br>favicon.io <br>favicon.cc <br>iconarchive <br>o passo a passo ent <h3>-Pegue seu icone pronto e salve no arquivo do site <br>- Na parte "head" de link:favicon e enter <br>-Dê ctrl+space no "href" e coloque o seu favicon</h3></p>
+        Agora como colocar icones na aba do seu site.Você pode contruir, criar ou até mesmo pegar um icone (mas presumo que queira criar ou contruir o seu do zero), você pode fazer isso usando alguns sites como <a href="https://favicon.io/" target="_blank">favicon.io</a>, <a href="https://www.favicon.cc/" target="_blank">favicon.cc</a>, <a href="https://www.iconarchive.com/" target="_blank">iconarchive</a> <br>o passo a passo ent: <strong><br> -Pegue seu icone pronto e salve no arquivo do site <br>-Na parte "head" de "link:favicon" e enter <br>-Dê ctrl+space no "href" e coloque o seu favicon</strong></p>
         
         <p><h2>Marcação e formatação de texto</h2>Com a tag (strong)você deixa uma palavra destacada em negrito: <strong>como essa daqui.</strong><br>Com a tag (em)deixa destacado em italico: <em>como essa daqui</em> <br> Com a tag (mark) voce deixa a marcação em forma de marca texto e pode mudar ela de cor usando a tag (style do css):<mark style="background-color:limegreen;">como essa aqui</mark><br>Com a tag (del) você "exclui" uma frase do seu texto:<del>como essa aqui</del><br>Com a tag (ins) você sublinha uma frase do texto: <ins>como essa aqui</ins><br>Com a tag (abbr) você colocar o significado das siglas por fora, ou seja, so vê passando a seta do mouse por cima: <abbr title="Counter-Strike Global Offensive">CS:GO</abbr> <br>Com a tag (code) você ajeita codigos que tem letras diferentes, colocando elas organizadas e no mesmo tamanho, porém ela vai ficar tudo em linha reta mesmo escrevendo em identações, nesse caso você coloca a tag (code) dentro de uma tag chamada (pre): <br> Ficando assim:
         <pre>
@@ -73,37 +74,40 @@
         <strong>type=</strong>é o tipo de arquivo que sua imagem foi salva (png, jpeg, etc...)</p>
         
         <h2>Audio em html</h2>
-        Para colocar audio você tem que entrar na tag (audio) tirar o (src) e colocar (source src)nele você coloca seu audio baixado, você baixa eles pela area da bibliotecade audio no youtube ou baixando um audio feito por você mesmo, mas cuidado pois cada dispositivo tem seu arquivo então faça seu audio para varios arquivos diferentes. Dentro da tag audio você pode colocar algumas funções como:<p>
-            <ol type="I">
-                <li><abbr title="Ele determina qual a compatibilidade">preload</abbr></li>
-                <ol>
-                    <li type="disc"><abbr title="carrega alguns dados (pause, volume, tempo)">metadata</abbr></li>
-                    <li type="disc"><abbr title="só carrega o site quando o video for carredo, por isso cuidado">auto</abbr></li>
-                    <li type="disc"><abbr title="não carrega nada">none</abbr></li>
-                </ol>
-                <li><abbr title="da funcôes aos controles (pause, volume, tempo)">controls</abbr></li>
-                <li><abbr title="parâmetro que funciona com o auto">autoplay</abbr></li>
-                <li><abbr title="retorna o audio quando termina">loop</abbr></li>
-            </ol></p>
-        
+        <aside>
+           <p>Para colocar audio você tem que entrar na tag (audio) tirar o (src) e colocar (source src)nele você coloca seu audio baixado, você baixa eles pela area da bibliotecade audio no youtube ou baixando um audio feito por você mesmo, mas cuidado pois cada dispositivo tem seu arquivo então faça seu audio para varios arquivos diferentes. Dentro da tag audio você pode colocar algumas funções como:</p>
+                    <ol type="I">
+                        <li><abbr title="Ele determina qual a compatibilidade">preload</abbr></li>
+                        <ol>
+                            <li type="disc"><abbr title="carrega alguns dados (pause, volume, tempo)">metadata</abbr></li>
+                            <li type="disc"><abbr title="só carrega o site quando o video for carredo, por isso cuidado">auto</abbr></li>
+                            <li type="disc"><abbr title="não carrega nada">none</abbr></li>
+                        </ol>
+                        <li><abbr title="da funcôes aos controles (pause, volume, tempo)">controls</abbr></li>
+                        <li><abbr title="parâmetro que funciona com o auto">autoplay</abbr></li>
+                        <li><abbr title="retorna o audio quando termina">loop</abbr></li>
+                    </ol>
+        </aside>
         <h2>Videos em html</h2>
         <p>Na area de video tem varias coisas para ser revisadas, uma delas é o a parte de baixar e converter esses videos, para baixar voce pode ir na parte de biblioteca do youtube para fugir de direitos autorais e converter eles baixando uma ferramenta chamada (handbrake) ela converte o video para ficar menor, poís caso seu video seja muito grande por causa da resolução seu site ficará pesado e lento, assim o google não irá recomenda-lo, então fale para seu cliente que o certo é produzir os proprios video, assim fugindo dos direitos autorais e gastando menos banda, você pode pega-los na parte de compartilhar e incorporar do proprio video que assim você tera a url do video sem gastar nada, somente colocar em seu codigo que arrumando as configs do jeito que bem entender para seu site.Você pode ir pelo vimeo tambem ele tem como, hospedar seus videos para que somente você ou seu cliente tenha acesso a eles, melhor resolução e não corre risco de quando o video acabar, aparecer um video aleatorio no seu site, então todos essas opções tem que ser ditas ao seu cliente.</p>
         <p>Para colocar os videos você faz o mesmo que com audios mas com a tag (videos) tirando o src e colocando a tag source src dentro das tags do audio e caso queira colocar uma capa no seu video para não ficar no flame aleatorio do video, basta colocar a tag (poster) Dentro de video sem ser junto com os sources, literalmente dentro da tag, caso queria colocar um video de alguma plataforma sem baixar, faça igual eu disse antes, pegue o url em incorporar do proprio video que pesa menos do que você converter um video, então uma dica que dou é criar um canal para upar seus videos la para n precisr converter e pesar tanto seu site</p>
         <p><h2>Estilos em css</h2></p>
-        <p>O ultimo capitulo do primeiro modo foi uma iniciativa para a parte da css que é a parte de estilos que está no seu site, tem algumas tags que te ajudam nisso. <br>
-            <ul>
-                <li><strong>style=</strong>ele da o estilo para seu paragrafo, cabeçalho, titulos, etc</li>
-                <ol>
-                    <li type="square"><strong>background-color=</strong>cor de fundo do seu site</li>
-                    <li type="square"><strong>color=</strong>cor para algo especifico (paragrafo, cabeçalho, titulos) serve para trocar a cor das fontes também</li>
-                </ol>
-                <li><strong>font=</strong> ela muda a fonte da sua escrita</li>
-                <ol>
-                    <li type="square"><strong>font-size=</strong>muda o numero de pexel (px) da sua escrita</li>
-                    <li type="square"><strong>font-family=</strong>é a fonte da sua escrita</li>
-                </ol>
-                <li><strong>text text-align=</strong> ele alinha seu texto</li>
-            </ul></p>
+        <aside>
+            <p>O ultimo capitulo do primeiro modo foi uma iniciativa para a parte da css que é a parte de estilos que está no seu site, tem algumas tags que te ajudam nisso. <br></p>
+                    <ul>
+                        <li><strong>style=</strong>ele da o estilo para seu paragrafo, cabeçalho, titulos, etc</li>
+                        <ol>
+                            <li type="square"><strong>background-color=</strong>cor de fundo do seu site</li>
+                            <li type="square"><strong>color=</strong>cor para algo especifico (paragrafo, cabeçalho, titulos) serve para trocar a cor das fontes também</li>
+                        </ol>
+                        <li><strong>font=</strong> ela muda a fonte da sua escrita</li>
+                        <ol>
+                            <li type="square"><strong>font-size=</strong>muda o numero de pexel (px) da sua escrita</li>
+                            <li type="square"><strong>font-family=</strong>é a fonte da sua escrita</li>
+                        </ol>
+                        <li><strong>text text-align=</strong> ele alinha seu texto</li>
+                    </ul>
+        </aside>
             <p>Você tem três tecnicas para fazer esses estilos <br><strong>inline=</strong>você coloca os estilos linha por linha <br><strong>No head=</strong>está tecnica você coloca a tag (style) na parte do head e la você coloca os estilos que quiser para cada parte, basta dar a parte que quiser como titulos ou ate mesmo paragrafos colocar {} na frente e dar um enter dentro das chaves e colcoar seus estilos <br><strong>Arquivo em css=</strong>Na parde do head você coloca a tag (link-css) clique com ctrl+clique para criar o arquivo e la dentro você faz a segunda técnica</p>
             <p>A primeira técnica não é recomendada, pois é para algo muito especifico dentro do seu site e para não ficar fazendo ela titulo por titulos em 20 paginas você usa a segunda técnica para fazer algo maior, porém a terceira técnica também ajuda caso você tenha varias paginas e precisa colocar o mesmo estilos em todas elas e para não precisar copiar e colar os seu estilo todas as vezes, faça a terceira técnica criando o arquivo em css.</p>
             <p>Falar um pouco da tag <strong>main</strong>, essa tag é como se fosse uma separação criando uma "caixa" e dentro dessa caixa você pode modificar separadamente: ex: dentro do main tem as explicações com os estilos certinhos e fora do main tem somente o degradê da pagina (atualmente, pode ser que eu ja tenha modificado por ter aprendido algo diferente)ent vou colocar algumas tags que aprendi que podemos colocar dentro do main.<p><strong>width:</strong>é a largura do seu main/caixa. <br><strong>padding:</strong>ela separa os textos das bordas (em pixes) <br><strong>margin:auto; :</strong>ela centraliza o main independente do tamanho da tela do dispositivo <br><strong>box-shadow:</strong>coloca sombras na sua caixa/main ela trabalha em partes de direções que a sombra vai se mover (em pixels):lado, baixo, espalhamento. <br><strong>border-radius:</strong> ela arredonda a borda da sua caixa/main(em pixels). <br><strong>text-shadow:</strong>coloca sombras dos textos e titulos,na mesma tecnica do box-shadow (lado, baixo, espalhamento) <br><strong>*:</strong>configuração global.</p> <strong><p>Dica:para colocar uma sombra você não precisa mostrar que tem uma sombra ali, somente colocque algo leve a não ser que for necessario colocar, e para colocar a sombra da cor da escrita que você escolheu, basta pegar a cor e arrastar levemente para baixo na paleta da cor escolhida, assim formando um leve contraste para a sombra</p></strong></p>
@@ -118,15 +122,18 @@
 
             <h2>Pseudo class em css (introdução)</h2>
             <p>Na parte de pseudo class temos alguns seletores como: <br>
-            <strong>id=</strong>representa um identificador, é dado um nome a ele e so pode ser usado uma vez de cada tipo em cada codigo html<br><strong>class=</strong> representa uma classe que pode ser configurada, é dado um nome a ela e pode ser colocado varias vezes no mesmo codigo <br><strong>>=</strong>representa um children/filho que funciona para identificar que alguns elementos são filhos de alguns pseudos class e pseudos elementos, (voçê vai ver melhor na parte de pseudo elementos) <br><strong>: =</strong>representa as pseudos class <br><strong># =</strong> representa o id em css <br><strong>. =</strong> representa a class em css <br><strong>div=</strong>tag para criar um quadrado qualquer <br>Algumas tags podem ser colocadas dentro da tag div como :
-                <ul>
-                    <li><strong>display:inline-block;</strong> colocas suas divs uma do lado da outra</li>
-                    <li><strong>width</strong>largura</li>
-                    <li><strong>height</strong>altura</li>
-                    <li><strong>display:none;</strong>esconde outro elemento que esteja como filho</li>
-                    <li><strong>display:block;</strong>mostra o elemento que esteja como filho</li>
-                    <li><strong>border</strong>personaliza a borda da sua div</li>
-                </ul>
+            <strong>id=</strong>representa um identificador, é dado um nome a ele e so pode ser usado uma vez de cada tipo em cada codigo html<br><strong>class=</strong> representa uma classe que pode ser configurada, é dado um nome a ela e pode ser colocado varias vezes no mesmo codigo <br><strong>=</strong>representa um children/filho que funciona para identificar que alguns elementos são filhos de alguns pseudos class e pseudos elementos, (voçê vai ver melhor na parte de pseudo elementos) <br><strong>: =</strong>representa as pseudos class <br><strong># =</strong> representa o id em css <br><strong>. =</strong> representa a class em css <br><strong>div=</strong>tag para criar um quadrado qualquer <br>
+            <aside>
+                <p>Algumas tags podem ser colocadas dentro da tag div como:</p>
+                        <ul>
+                            <li><strong>display:inline-block;</strong> colocas suas divs uma do lado da outra</li>
+                            <li><strong>width</strong>largura</li>
+                            <li><strong>height</strong>altura</li>
+                            <li><strong>display:none;</strong>esconde outro elemento que esteja como filho</li>
+                            <li><strong>display:block;</strong>mostra o elemento que esteja como filho</li>
+                            <li><strong>border</strong>personaliza a borda da sua div</li>
+                        </ul>
+            </aside>            
             Tambem temos algumas tag como: <br><strong>hover=</strong>quando passar o mouse por cima de algum elemento que foi posto essa tag, ela terá uma interação <br><strong>visited=</strong>tag normalmente posta em links, as configs só funcionam se o site ja for visitado <br><strong>active=</strong>normalmente posto em links, as configs só vao ocorrer quando você clicar no link, por exemplo a mudança de cor</p>
             <h3>Escondendo elementos:</h3>
             <p>Para esconder podemos usar qualquer elemento mas nesse exemplo vou usar o paragrafo(p).</p>
@@ -143,5 +150,8 @@
         <a href="../desafio-009/index.html" target="_self" rel="external"><img src="../desafio-009/imagens/voltar2.png" alt="voltar2"></a>
         <a href="pag2.html" target="_self" rel="external"> <img src="../desafio-009/imagens/voltar1.png" alt="voltar1"></a>
     </main>
+    <footer>
+        <address><p style="text-align: right;">Autor: Pedro Henrique Silva Gomes-Data: 27/01/2023 as 11:00</p></address>
+    </footer>
 </body>
 </html>
