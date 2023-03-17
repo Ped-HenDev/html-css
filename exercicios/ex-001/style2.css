@@ -142,10 +142,13 @@ footer > address{
     text-align: center;
     color: black;
     font-weight: bold;
-    font-size: 0.8;
+    font-size: 0.8em;
 }
 
 #ir{
     position: relative;
     right: -800px;
+}
+.no-ident{
+    text-indent: 0px;
 }

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+div{
+    width: 100px;
+}
+div > p{
+    display: none;
+    width: -150px;
+}
+div:hover > p{
+    display: block;
+    background-color: gray;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: auto;
+    text-align: justify;
+    padding: 10px;
+}
