@@ -13,7 +13,7 @@ body{
 
 header{
     width: auto;
-    height: 150px;
+    min-height: 150px;
     padding: 10px;
     background-image: linear-gradient(to bottom, #F58718, #F17918, #ED691F, #EB4F26);
 }
@@ -39,11 +39,11 @@ nav > p{
 
 main{
     max-width: 900px;
-    min-width: 320px;
+    min-width: 240px;
     background-color: rgb(240, 228, 204);
     padding: 10px;
     margin: auto;
-    box-shadow: 3px 3px 15px black;
+    box-shadow: 3px 3px 7px black;
     border-radius: 10px;
 }
 main > aside{
@@ -59,6 +59,7 @@ aside > p{
     background-color: #EB4F26;
     border-radius: 10px 10px 0px 0px;
     margin: -10px -10px 10px -10px;
+    font-weight: bold;
 }
 
 h1{
@@ -72,19 +73,24 @@ h1{
 }
 
 h2{
-   color: #ED691F;
+   color: rgb(152, 46, 1);
    text-shadow: 0px 0px 1px black;
    margin: auto;
-   background-image: linear-gradient(to right, #f870008d, transparent);
+   background-image: linear-gradient(to right, #f87000, transparent);
    padding: 5px 5px 5px 0px;
+   margin-left: -10px;
+   text-indent: 5px;
 }
 
 h3{
-    color: #ff6a00;
+    color: rgba(81, 81, 81, 0.476);
     text-shadow: 0px 0px 0.8px black;
     margin: auto;
+    margin-left: -10px;
+    margin-top: 10px;
+    text-indent: 5px;
     padding: 5px 5px 5px 0px;
-    background-image: linear-gradient(to right, #f8aa00b9, transparent);
+    background-image: linear-gradient(to right, #f87000, transparent);
 }
 
 a{
@@ -107,6 +113,8 @@ p{
     line-height: 23px;
     margin: auto;
     padding: 5px 5px 5px 0px;
+    text-align: justify;
+    line-height: 28px;
  }
 
  div > p{
@@ -122,4 +130,22 @@ div{
     border: 1px solid darkred;
     text-align: center;
     margin-bottom: 10px;
+}
+
+footer{
+    background-color: #EB4F26;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+footer > address{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8;
+}
+
+#ir{
+    position: relative;
+    right: -800px;
 }
