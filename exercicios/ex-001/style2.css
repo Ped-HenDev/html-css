@@ -14,6 +14,7 @@ body{
 header{
     width: auto;
     min-height: 150px;
+    margin:auto;
     padding: 10px;
     background-image: linear-gradient(to bottom, #F58718, #F17918, #ED691F, #EB4F26);
 }
@@ -39,7 +40,7 @@ nav > p{
 
 main{
     max-width: 900px;
-    min-width: 240px;
+    min-width: 220px;
     background-color: rgb(240, 228, 204);
     padding: 10px;
     margin: auto;
@@ -68,14 +69,12 @@ h1{
     color: rgba(255, 149, 0, 0.741);
     text-shadow: 1px 1px 4px rgba(255, 166, 0, 0.745);
     text-decoration: underline;
-    margin: auto;
     padding: 10px;
 }
 
 h2{
    color: rgb(152, 46, 1);
    text-shadow: 0px 0px 1px black;
-   margin: auto;
    background-image: linear-gradient(to right, #f87000, transparent);
    padding: 5px 5px 5px 0px;
    margin-left: -10px;
@@ -85,7 +84,6 @@ h2{
 h3{
     color: rgba(81, 81, 81, 0.476);
     text-shadow: 0px 0px 0.8px black;
-    margin: auto;
     margin-left: -10px;
     margin-top: 10px;
     text-indent: 5px;
@@ -111,7 +109,7 @@ a:active{
 p{
     text-indent: 20px;
     line-height: 23px;
-    margin: auto;
+
     padding: 5px 5px 5px 0px;
     text-align: justify;
     line-height: 28px;
@@ -145,10 +143,6 @@ footer > address{
     font-size: 0.8em;
 }
 
-#ir{
-    position: relative;
-    right: -800px;
-}
 .no-ident{
     text-indent: 0px;
 }
