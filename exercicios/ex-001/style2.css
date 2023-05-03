@@ -17,6 +17,9 @@ header{
     margin:auto;
     padding: 10px;
     background-image: linear-gradient(to bottom, #F58718, #F17918, #ED691F, #EB4F26);
+    position: relative;
+    position: sticky;
+    top: -1px;
 }
 header > h1{
     color:#FDC04B;
@@ -26,6 +29,9 @@ header > h1{
 
 nav{
     background-color: #EB4F26;
+    position: relative;
+    position: sticky;
+    top: 169px;
 }
 nav > a{
     color: #FDC04B;
@@ -40,7 +46,7 @@ nav > p{
 
 main{
     max-width: 900px;
-    min-width: 220px;
+    min-width: 200px;
     background-color: rgb(240, 228, 204);
     padding: 10px;
     margin: auto;
@@ -148,7 +154,7 @@ footer > address{
 
 p > .seta{
     font-size: 4em;
-    margin-left : 250px;
+    text-align: center;
     color: #EB4F26;
     text-decoration: none;
 }
